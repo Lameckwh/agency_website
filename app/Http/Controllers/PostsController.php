@@ -169,11 +169,7 @@ class PostsController extends Controller
     }
 
 
-
-
-
     // app/Http/Controllers/PostsController.php
-
     public function upload(Request $request)
     {
         if ($request->hasFile('upload')) {
